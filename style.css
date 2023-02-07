@@ -6,6 +6,10 @@ h1, h2 {
   text-align: center;
 }
 
+.centered {
+  text-align: center;
+}
+
 .row {
   display: flex; 
   flex-direction: row;
