@@ -11,6 +11,7 @@
 
     <h1>hw-03: Interactive Webpage, and Marks & Channels</h1>
 
+    <!--create the interactive button to switch the view to "dark mode"-->
     <div class="centered"><button onclick="toggle_dark_mode()">Toggle Dark Mode</button></div>
 
     <div class="row">
@@ -24,45 +25,37 @@
             <ul>
                 <li>Area</li>
                 <ul>
-                    <li>Maps with states</li>
+                    <li>Maps of the United States</li>
                 </ul>
                 <li>Line</li>
                 <ul>
-                    <li>Horizontal line with the electoral vote count</li>
+                    <li>Horizontal line with the electoral vote count to show the viewer how many votes each candidate as received</li>
                 </ul>
             </ul>
 
+            <!--the channels for the first image-->
             <h3>Channels</h3>
             <ul>
-                <li>Color</li>
+                <li>Color (hue)</li>
                 <ul>
-                    <li>Colors representing the presidential candidates political parties (red for republican party or blue for democratic party)</li>
-                    <li>Good choice because each color represents a distinct political party so it makes it easy to follow</li>
+                    <li>The visual utilizes colors to represent the presidential candidates' political parties (red to represent the republican party and blue to represent the democratic party)</li>
+                    <li>This was a good choice because each color represents a distinct political party so it makes it easy to understand</li>
                 </ul>
 
                 <li>Position</li>
                 <ul>
-                    <li>Horizontal line representing electoral votes</li>
-                    <li>Good choice because it shows which candidate is winning by having surpassing the electoral votes needed to win and having it be horizontal makes it easy to follow right above the corresponding map</li>
-                </ul>
-                <li>Length</li>
-                <ul>
-                    <li>One long line representing electoral votes</li>
-                    <li>Good choice because having each state represented as blue or red makes it easy to see which candidate has won more states and also which states vote primarily towards one party or the other</li>
-                </ul>
-                <li>Shape</li>
-                <ul>
-                    <li>Map of the US</li>
-                    <li>Good choice because having each state represented as blue or red makes it easy to see which candidate has won more states and also which states vote primarily towards one party or the other</li>
+                    <li>There is a horizontal line above the map representing electoral votes</li>
+                    <li>This was a good choice because it clearly shows which candidate is winning by having the amount of color on the line surpass the electoral votes needed to win mark. Having it be horizontal also makes it easy to follow right above the corresponding map</li>
                 </ul>
             </ul>
 
-            <h3>Colormap(s)</h3>
+            <!--the colormap for the first image-->
+            <h3>Colormap</h3>
             <ul>
                 <li>Categorical</li>
                 <ul>
-                    <li>Red and blue represent distinct political parties</li>
-                    <li>Good choice because red and blue represent the two political parties which the two presidential candidates belong to so the divergent color scale makes it easy to follow</li>
+                    <li>The colormap is categorical because red and blue represent the distinct political parties (democrat and republican)</li>
+                    <li>This was a good choice because red and blue clearly represent the two political parties which the two presidential candidates belong to, so you can easily identfy on the map which states primarily voted for which party. You can also see on the horizontal line you can see which political party was winning based on the color with more electoral votes</li>
                 </ul>
             </ul>
             
@@ -75,6 +68,7 @@
             <img src="img/vis2.png">
         </div>
         <div class="col">
+            <!--the marks for the second image-->
             <h3>Marks</h3>
             <ul>
                 <li>Points</li>
@@ -86,37 +80,32 @@
                     <li>3 dashes lined which represent fly balls, line drives, ground balls</li>
                 </ul>
             </ul>
-
+            <!--the channels for the second image-->
             <h3>Channels</h3>
             <ul>
-                <li>Color</li>
+                <li>Color (saturation)</li>
                 <ul>
                     <li>There is a color scale for the points which represent the scoring value (purple being below average, white being average, and orange being above average)</li>
-                    <li>Good choice because it made the visual easy to follow since the purple and orange were two distinct colors which represented below average or above average, respectively. Having the midpoint be white also made the scale easy to follow.</li>
+                    <li>This was a good choice because it made the visual easy to follow since the purple and orange were two distinct colors which represented below average or above average, respectively. Having the midpoint be white also made the scale easy to follow</li>
                 </ul>
-                <li>Size</li>
+                <li>Size (length)</li>
                 <ul>
-                    <li>The 3 lines are dashed and have small widths</li>
-                    <li>Good choice because the small dashes dont cover too much of the visual but are prominent to see the line</li>
+                    <li>The 3 lines are dashed with small widths</li>
+                    <li>This was a good choice because the small dashes faintly go over the graph and don't cover any points but still make the lines distinct</li>
                 </ul>
-                <li>Positions</li>
+                <li>Position</li>
                 <ul>
                     <li>The 3 lines are vertical in direction</li>
-                    <li>Good choice because you you can see where the points lie relative to the 3 distinct launch angles at 50 degrees fly balls, 25 degrees line drives, 10 degrees ground balls</li>
-                </ul>
-                <li>Shape</li>
-                <ul>
-                    <li>SThe points are circular</li>
-                    <li>Good choice because points should be conventionally circular</li>
+                    <li>This was a good choice because you can see where the points lie relative to the 3 distinct launch angles at 50 degrees fly balls, 25 degrees line drives, and 10 degrees ground balls which are highlighted</li>
                 </ul>
             </ul>
-
-            <h3>Colormap(s)</h3>
+            <!--the colormap for the second image-->
+            <h3>Colormap</h3>
             <ul>
                 <li>Divergent</li>
                 <ul>
-                    <li>Ordered ordinal attribute</li>
-                    <li>Good choice because it represents a scale from below average to average to above average where average is the “mid point” and is white in color</li>
+                    <li>Ordered ordinal attribute because the purple represents below average, the white represents the midpoint of average, and the orange represents above average. The purple and orange represents the opposite extremes and the white is the neutral color in the middle</li>
+                    <li>This was a good choice because it represents a scale from below average to average to above average where average is the “mid point” and is white in color. It makes the graph very easy to follow with the corresponding legend</li>
                 </ul>
             </ul>
             
@@ -129,44 +118,48 @@
             <img src="img/vis3.png">
         </div>
         <div class="col">
+            <!--the marks for the third image-->
             <h3>Marks</h3>
             <ul>
-                <li>Area: Pie chart represented as a circle with wedges corresponding to the percentage</li>
+                <li>Area</li>
+                <ul>
+                    <li>Pie chart represented as a circle with wedges corresponding to each percentage</li>
+                </ul>
             </ul>
-
+            <!--the channels for the third image-->
             <h3>Channels</h3>
             <ul>
-                <li>Color: </li>
+                <li>Color (hue)</li>
                 <ul> 
-                    <li>Each country corresponds to a wedge color</li>
-                    <li>Good choice because it makes the chart easy to follow and trace back to the corresponding country</li>
+                    <li>Each country corresponds to a distinct wedge color in the pie chart</li>
+                    <li>This was a good choice because it makes the chart easy to follow and trace back to the corresponding country based on color</li>
                 </ul>
-                <li>Shape: </li>
+                <li>Shape</li>
                 <ul> 
-                    <li>Circle representing 100% and each wedge in the circle representing a percentage which all add up to 100%</li>
-                    <li>Good choice because teh circle represents the full 100% and all of the wedges add up to 100%</li>
+                    <li>The visual is a circular pie chart representing 100% and each wedge in the circle represents a percentage which all add up to 100%</li>
+                    <li>This was a good choice because, since we were dealing with percentages a pie chart made the most sense to show the proportions</li>
                 </ul>
-                <li>Size: </li>
+                <li>Size</li>
                 <ul> 
-                    <li>Each wedge size corresponds to its percentage out of 100%</li>
-                    <li>Good choice because it shows the proportions relative to the total</li>
+                    <li>Each wedge size in the pie chart corresponds to its percentage out of 100%</li>
+                    <li>This was a good choice because it shows the proportion of individuals from each country relative to the total number of individuals in the sample data (top 50 finishers)</li>
                 </ul>
                 <ul>
                 </ul>
             </ul>
-
+            <!--the channels for the third image-->
             <h3>Colormap(s)</h3>
             <ul>
                 <li>Categorical: </li>
                 <ul>
-                    <li>Each color represents one distinct country</li>
-                    <li>Good choice because it makes the visual clear and easy to follow with the legend denoting each country's corresponding color on the chart </li>
+                    <li>Each color represents a distinct country of origin</li>
+                    <li>This was a good choice because it makes the visual clear and easy to follow with the legend denoting each country's corresponding distinct color on the chart</li>
                 </ul>
             </ul>
             
         </div>
     </div>
-
+    <!--resources used-->
     <h2>Acknowledgements</h2>
     <div>
         <ul>
